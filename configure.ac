@@ -14,4 +14,4 @@ AC_ARG_ENABLE([debug],
 AM_INIT_AUTOMAKE
 
 # Salida del script de configuración
-AC_OUTPUT(Makefile)
+AC_OUTPUT()
