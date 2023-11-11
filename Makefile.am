@@ -25,4 +25,3 @@ README:
 
 COPYING:
     cp /usr/share/common-licenses/GPL-3 $@
-
