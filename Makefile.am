@@ -6,4 +6,4 @@ bin_PROGRAMS = main
 my_program_SOURCES = primercodigo.cpp
 
 # Archivos requeridos por Automake (puedes personalizar según tus necesidades)
-# EXTRA_DIST = AUTHORS ChangeLog INSTALL NEWS README
+EXTRA_DIST = AUTHORS ChangeLog INSTALL NEWS README
