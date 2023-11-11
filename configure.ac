@@ -1,5 +1,5 @@
 AC_INIT([TrabajoES], [1.0], [ascastillo1998@gmail.com])
-AC_CONFIG_SRCDIR([main.cpp])
+AC_CONFIG_SRCDIR([primercodigo.cpp])
 AC_CONFIG_HEADERS([config.h])
 
 AC_CONFIG_FILES([Makefile])
