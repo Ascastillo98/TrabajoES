@@ -1,7 +1,5 @@
 # Nombre del programa y archivos fuente
-Programa = main.o
-
-Programa_SOURCES = primercodigo.cpp
+Programa = primercodigo.cpp
 
 # Opciones de compilación y enlace
 AM_CFLAGS = -Wall
