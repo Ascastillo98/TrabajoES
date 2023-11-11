@@ -1,5 +1,5 @@
-AC_INIT([mi_proyecto], [1.0], [mi_correo@dominio.com])
-AC_CONFIG_SRCDIR([main.c])
+AC_INIT([TrabajoES], [1.0], [ascastillo1998@gmail.com])
+AC_CONFIG_SRCDIR([main.cpp])
 AC_CONFIG_HEADERS([config.h])
 
 # Verificar dependencias
