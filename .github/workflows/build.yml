@@ -9,13 +9,10 @@ jobs:
   build-analyze:
     runs-on: ubuntu-latest
     steps:
-      - name: Set execute permissions
-        run: chmod +x ./build-analyze.sh
-        
       - uses: actions/checkout@v1
       - name: Build and analyze on SonarCloud
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }} # Put the name of your token here
-        run: ./build-analyze.sh
+        run: sudo ./build-analyze.sh
         shell: bash
