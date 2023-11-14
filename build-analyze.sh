@@ -1,4 +1,3 @@
-chmod +x build-analyze.sh
 #!/bin/bash
 
 # SonarCloud needs a full clone to work correctly but some CIs perform shallow clones
