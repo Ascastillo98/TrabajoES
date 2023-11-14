@@ -9,6 +9,9 @@ jobs:
   build-analyze:
     runs-on: ubuntu-latest
     steps:
+      - name: Set execute permissions
+        run: chmod +x build-analyze.sh
+        
       - uses: actions/checkout@v1
       - name: Build and analyze on SonarCloud
         env:
