@@ -2,7 +2,10 @@ AC_INIT([TrabajoES], [1.0], [ascastillo1998@gmail.com])
 AC_CONFIG_SRCDIR([primercodigo.cpp])
 AC_CONFIG_HEADERS([config.h])
 
-AC_CONFIG_FILES([Makefile])
+AC_CONFIG_FILES([
+ Makefile
+ src/Makefile
+])
 # Verificar dependencias
 AC_CHECK_LIB([m], [sin])
 
