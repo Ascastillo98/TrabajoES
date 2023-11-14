@@ -12,7 +12,7 @@ AC_ARG_ENABLE([debug],
   [enable_debug=yes],
   [enable_debug=no])
 
-AM_INIT_AUTOMAKE
+AM_INIT_AUTOMAKE([-Wall -Werror foreign])
 
 # Salida del script de configuración
 AC_OUTPUT()
