@@ -1,6 +1,4 @@
-# Nombre del programa y archivos fuente
-Programa = main
-    g++ primercodigo.cpp -o main
+SUBDIRS = src
 
 # Opciones de compilación y enlace
 AM_CFLAGS = -Wall
