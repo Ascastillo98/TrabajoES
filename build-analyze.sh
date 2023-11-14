@@ -1,5 +1,5 @@
 #!/bin/bash
-
+chmod +x build-analyze.sh
 # SonarCloud needs a full clone to work correctly but some CIs perform shallow clones
 # so we first need to make sure that the source repository is complete
 git fetch --unshallow
