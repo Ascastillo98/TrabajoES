@@ -30,4 +30,4 @@ autoreconf --install
 build-wrapper-linux-x86-64 --out-dir $BUILD_WRAPPER_OUT_DIR make clean all
 
 # Run sonar scanner
-sonar-scanner -Dsonar.host.url="${SONAR_HOST_URL}" -Dsonar.login=$SONAR_TOKEN -Dsonar.cfamily.build-wrapper-output=$BUILD_WRAPPER_OUT_DIR
+sonar-scanner -X -Dsonar.host.url="${SONAR_HOST_URL}" -Dsonar.login=$SONAR_TOKEN -Dsonar.cfamily.build-wrapper-output=$BUILD_WRAPPER_OUT_DIR
